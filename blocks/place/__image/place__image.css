@@ -1,12 +1,8 @@
 .place__image{
     max-width: 640px;
     width: 100%;
-    grid-column: 1;
-}
-.place__image:nth-of-type(2n){
-    max-width: 640px;
-    width: 100%;
-    grid-column: 2;
+    height: 640px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
