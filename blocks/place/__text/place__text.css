@@ -2,3 +2,21 @@
     max-width: 640px;
     background-color: #f2f2f2;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__text {
+        max-width: 512px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__text {
+        max-width: 384px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__text {
+        max-width: 320px;
+    }
+}
