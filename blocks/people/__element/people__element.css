@@ -1,5 +1,25 @@
 .people__element {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1140px) {
+  .people__element {
+    margin: calc(100vw / 9.25) auto 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .people__element {
+    max-width: 600px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .people__element {
+    max-width: 400px;
+  }
 }

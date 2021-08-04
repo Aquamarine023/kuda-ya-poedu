@@ -1,5 +1,32 @@
 .people {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 130px 0 225px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 135px 0 120px;
+}
+
+@media screen and (max-width: 1139px) {
+  .people {
+    max-width: 1000px;
+    padding: calc(100vw / 8.4) 0 calc(100vw / 9.5);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .people {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .people {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .people {
+  }
 }

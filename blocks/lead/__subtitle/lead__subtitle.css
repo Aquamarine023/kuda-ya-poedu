@@ -4,7 +4,19 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  color: #FECDA7;
+  color: #fecda7;
   text-transform: uppercase;
   margin: 0 0 30px;
+}
+
+@media screen and (max-width: 999px) {
+  .lead__subtitle {
+    margin-bottom: calc(100vw / 38);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lead__subtitle {
+    text-align: center;
+  }
 }

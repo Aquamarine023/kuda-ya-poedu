@@ -1,3 +1,16 @@
 .card {
-  max-width: 235px;  
+  max-width: 205px;
+}
+
+@media screen and (max-width: 900px) {
+  .card:nth-child(3),
+  :nth-child(4) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card:not(:first-child) {
+     margin-top: 20px;
+  }
 }

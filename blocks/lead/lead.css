@@ -1,7 +1,37 @@
 .lead {
-    max-width: 1140px;
-    display: grid;
-    grid-template-columns: 698px 355px;
-    margin: 0 auto 0;
-    padding: 86px 0 130px;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: 698px 355px;
+  margin: 0 auto 0;
+  padding: 86px 0 130px;
 }
+
+@media screen and (max-width: 1140px) {
+  .lead {
+    max-width: 1000px;
+    grid-template-columns: 645px 355px;
+    padding: calc(100vw / 13.25) 0 calc(100vw / 8.76);
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .lead {
+    max-width: 800px;
+    grid-template-columns: 445px 355px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lead {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .lead {
+        max-width: 300px;
+    }
+  }

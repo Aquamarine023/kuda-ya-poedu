@@ -1,0 +1,7 @@
+.place__paragraphs{
+    max-width: 340px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
