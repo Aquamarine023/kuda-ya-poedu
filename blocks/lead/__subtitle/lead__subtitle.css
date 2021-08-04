@@ -1,12 +1,13 @@
 .lead__subtitle {
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  color: #fecda7;
-  text-transform: uppercase;
-  margin: 0 0 30px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fecda7;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 999px) {

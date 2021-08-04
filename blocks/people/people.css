@@ -1,7 +1,7 @@
 .people {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 135px 0 120px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 140px 0 122px;
 }
 
 @media screen and (max-width: 1139px) {
@@ -13,20 +13,9 @@
 
 @media screen and (max-width: 1000px) {
   .people {
-    max-width: 900px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .people {
     max-width: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .people {
   }
 }

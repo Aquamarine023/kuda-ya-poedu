@@ -1,10 +1,17 @@
 .card__title {
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 12px;
-  color: black;
-  text-transform: uppercase;
-  margin: 0 0 20px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+    letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .card__title {
+        margin-bottom: calc(100vw / 56);
+    }
 }
