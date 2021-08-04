@@ -21,5 +21,11 @@
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 @import url("../blocks/place/__text/place__text.css");
 
+@import url("../blocks/people/people.css");
+@import url("../blocks/people/__element/people__element.css");
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__subtitle/card__subtitle.css");
+@import url("../blocks/card/__title/card__title.css");
 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__text/footer__text.css");
