@@ -1,0 +1,6 @@
+.lead {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 698px 355px;
+    margin: 0 auto 0;
+}
